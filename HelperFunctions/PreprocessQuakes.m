@@ -1,6 +1,7 @@
 function quakes = PreprocessQuakes(quakes)
 % PREPROCESSQUAKES Reorganize earthquake data
 
+% Datetime
 % Convert data types
 quakes.time = datetime(quakes.time,...
     "InputFormat",'yyyy-MM-dd''T''HH:mm:ss.SSS''Z','TimeZone','UTC');
@@ -12,4 +13,4 @@ quakes = convertvars(quakes,["id","place"],"string");
 quakes = quakes(:,["latitude","longitude","depth",...
     "mag","rms","place","type"]);
 quakes = sortrows(quakes);
-end
+endhttps://github.com/dabhimanyu/recent-quakes/blob/abhi/HelperFunctions/PreprocessQuakes.m
