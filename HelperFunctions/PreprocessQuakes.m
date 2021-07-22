@@ -13,4 +13,4 @@ quakes = convertvars(quakes,["id","place"],"string");
 quakes = quakes(:,["latitude","longitude","depth",...
     "mag","rms","place","type"]);
 quakes = sortrows(quakes);
-endhttps://github.com/dabhimanyu/recent-quakes/blob/abhi/HelperFunctions/PreprocessQuakes.m
+end
