@@ -7,6 +7,7 @@ quakes.Loc = extractAfter(quakes.place,",");
 quakes.Loc = strip(quakes.Loc);
 
 % Hello: I'm just messing around having fun :-)
+% This is the earthquake repo
 
 % If they didn't have a comma or space, they were left missing. Use the full 
 % label in that case.
