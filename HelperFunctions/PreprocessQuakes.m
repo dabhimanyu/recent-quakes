@@ -1,7 +1,7 @@
 function quakes = PreprocessQuakes(quakes)
 % PREPROCESSQUAKES Reorganize earthquake data
 
-% Datetime
+% Acquire Datetime
 % Convert data types
 quakes.time = datetime(quakes.time,...
     "InputFormat",'yyyy-MM-dd''T''HH:mm:ss.SSS''Z','TimeZone','UTC');
