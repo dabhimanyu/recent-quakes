@@ -5,3 +5,6 @@ Read recent earthquake data and visualize frequency and magnitude by location.
 ![Visualize Quake Density](Figures/quakedensity.jpg)
 ![Visualize Quake Types](Figures/quakebubble.jpg)
 ![Visualize Wordcloud](Figures/quakewordcloud.jpg)
+
+I'm trying out new stuff with this repo. Let's see if I'm able to integrate matlab with 
+github. 
